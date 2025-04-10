@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bad Script", cursive;
+}
+
+body{
+    background-color: #000;
+}
+nav{
+    position: fixed;
+    padding: 2rem 2rem 1rem 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    background-color: #f5f0f0;
+    
+}
+
+nav span{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    display: none;
+}
+
+nav li{
+    list-style-type: none;
+    /* color: rgb(7, 1, 34); */
+}
+
+nav a{
+    /* color: #0f0f0f; */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover{
+    /* color: #fff; */
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    padding: 0 1rem ;
+}
+
+/*NAVBAR SECTION*/
+.navbar{
+    position: absolute;
+    background-color: rgb(8, 8, 8);
+    top: 0;
+    width: 80%;
+    right: 0;
+    min-height: 100vh;
+    z-index: 1;
+    justify-items: flex-start;
+    gap: 55px;
+    overflow: hidden;
+    padding-top: 4rem;
+    display: none;
+    overflow-y:hidden;
+}
+
+#menuBar{
+    font-size: 1rem;
+    cursor: pointer;
+    color: #000;
+}
+
+#exitBar{
+    display: flex;
+    justify-self: left;
+    margin: 0 0 3rem 2rem;
+    font-size: 1.9rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 0;
+    gap: 65px;
+    padding-left: 3.5rem;
+}
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #fff;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 7px;
+    color: #fff;
+}
+
+.navbar .navbarMedia ul{
+    padding-top: 6.7rem;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 30px;
+}
+
+.navbar .navbarMedia a:hover{
+    font-size: 2.5rem;
+}
+
+/*END OF NAV BAR*/
+.contact{
+    margin-top: 4rem;
+}
+
+.image img{
+    width:100vw;
+    height: auto;
+}
+
+.contact-form{
+    padding: 1rem;
+}
+
+.contact-form h1{
+    color: #fff;
+    font-family: "Bad Script", cursive;
+    justify-self: center;
+    letter-spacing: 0.7rem;
+}
+.contact-form span{
+    color: blue;
+}
+
+.contact-form p{
+    color: #fff;
+    margin: 2rem 0;
+    font-family: "Bad Script", cursive;
+    font-size: 1rem;
+}
+
+.number{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contact-form form input, 
+    form textarea{ 
+    width: 100%; 
+    padding: 17px; 
+    border: none; 
+    outline: none; 
+    background: #191919; 
+    color: #fff; 
+    font-size: 1rem; 
+    margin-bottom: 0.4rem; 
+    }
+
+.contact-form textarea{
+    resize: none;
+    height: 15rem;
+}
+
+#submit{
+    display: inline-block;
+    background: blue;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100px;
+    transition: ease .20s;
+    cursor: pointer;
+    padding: 0.4rem;
+    color: #fff;
+}
+
+#submit:hover{
+    background-color: transparent;
+    border: 4px solid blue;
+    transform: scale(1.1);
+}
+
+.newsletter{
+    padding: 1rem;
+    text-align: center;
+}
+.newsletter h1{
+    color: #fff;
+    margin: 3rem 3rem 1.5rem 3rem;
+    justify-self: center;
+}
+
+.newsletter input{
+    background: #191919;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter input:hover{
+    background-color: transparent;
+    border: 4px solid blue;
+    transform: scale(1.1);
+}
+
+
+/* FOOTER SECTION*/
+footer{
+    background-color: #201f1f;
+    justify-items: center;
+    padding: 3rem 2rem 0 2rem;
+    color: #fff;
+    overflow: hidden;
+}
+
+footer .media ul{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 2rem;
+    
+}
+footer .media ul li{
+    list-style: none;
+    justify-content: space-around;
+    gap: 50px;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.navLinks{
+    display: flex;
+}
+
+footer .navLinks ul{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    gap: 35px;
+    font-size: 1rem;
+}
+
+footer .navLinks ul li{
+    list-style: none;
+    justify-content: space-around;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    padding: 1.5rem 0;
+}
+
+.copyRight{
+    background-color: blue;
+    width: 100vw;
+    padding: 0.7rem;
+    justify-items: center;
+}
+
+.copyRight p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+}
+
+
+
+/*MEDIA QUERY FOR CONTACT PAGE*/
+@media(min-width:768px){
+    nav span{
+        font-size: 1.8rem;
+    }
+
+    #menuBar{
+        font-size: 1.8rem;
+    }
+
+    .contact{
+        margin-top: 5rem;
+    }
+
+    .contact-form{
+        padding: 2.5rem;
+    }
+    
+    .contact-form h1{
+        font-size: 2.5rem;
+        letter-spacing: 0.9rem;
+    }
+    
+    .contact-form p{
+        font-size: 1.8rem;
+    }
+    
+    .contact-form form input, 
+    form textarea{ 
+    
+    font-size: 1.5rem; 
+    }
+
+    .contact-form textarea{
+        height: 20rem;
+    }
+    
+    #submit{
+        padding: 1.2rem;
+        width: 150px;
+    }
+    
+    .newsletter{
+        padding: 2.5rem;
+    }
+
+    footer .media ul{
+        gap: 70px;
+    }
+  
+    footer .navLinks ul{
+        gap: 135px;
+    }
+
+    .copyRight p{
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+@media(min-width:1024px){
+    nav ul{
+        display: flex;
+    }
+    #menuBar{
+        display: none;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+    .image{
+        order: 2;
+    }
+    .image img{
+        width:50vw;
+        height: 100VH;
+    }
+
+    .contact-form{
+        padding: 5rem 3rem 1rem 3rem;
+
+    }
+
+    
+    .contact-form h1{
+        font-size: 2.3rem;
+    }
+   
+    .contact-form p{
+        font-size: 1.1rem;
+    }
+
+    .contact-form textarea{
+        height: 10rem;
+    }
+
+    .newsletter{
+        padding: 4rem 10rem;
+    }
+
+    footer .media ul{
+        gap: 150px;
+        font-size: 2rem;
+    }
+  
+    footer .navLinks ul{
+        gap: 200px;
+        
+    }
+
+    footer .navLinks a{
+        font-size: 1.6rem;
+    }
+
+}
+
+
+@media(min-width:1440px){
+ 
+    .image img{
+        height: 115vh;
+    }
+
+    .contact-form{
+        padding: 8rem 7rem 1rem 7rem;
+
+    }
+    
+    .contact-form h1{
+        font-size: 3.3rem;
+    }
+   
+    .contact-form p{
+        font-size: 1.7rem;
+    }
+
+    .contact-form textarea{
+        height: 10rem;
+    }
+
+    footer .media ul{
+        gap: 170px;
+        font-size: 2.9rem;
+    }
+  
+    footer .navLinks ul{
+        gap: 220px;
+        
+    }
+
+    footer .navLinks a{
+        font-size: 2rem;
+    }
+
+    .copyRight p{
+        font-size: 1.7rem;
+        letter-spacing: 0.6rem;
+        padding: 2rem;
+    }
+    
+}
