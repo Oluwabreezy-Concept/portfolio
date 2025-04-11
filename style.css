@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 .name{
-    line-height: 0.7;
+    line-height: 0.9;
     /* padding: 3rem; */
 }
 .grid1 h1{
@@ -270,7 +270,14 @@ footer .navLinks ul li{
 }
 
 
-@media (max-width:900px){
+@media (max-width:1000px){
+    footer .media ul{
+        gap: 145px;
+    }
+    
+    footer .navLinks ul{
+        gap: 135px;
+    }
     .grid1 h1{
         font-size: 3rem;
     }
@@ -298,7 +305,7 @@ footer .navLinks ul li{
    }
 
    nav a{
-    font-size: 0.7rem;
+    font-size: 1rem;
     }
 
     nav ul{
@@ -318,7 +325,7 @@ footer .navLinks ul li{
    }
 
    .hire{
-    top: 57%;
+    top: 40%;
     left: 10vw;
     font-size: 1rem;
     z-index: 1;
@@ -342,9 +349,44 @@ footer .navLinks ul li{
 footer .navLinks ul li{
     padding: 3rem 1rem;
 }
+
+footer .media ul{
+    gap: 75px;
+}
+
+footer .navLinks ul{
+    gap: 65px;
+}
+
+.copyRight p{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+footer .navLinks a{
+    font-size: 1.5rem;
+}
 }
 
 @media (max-width:500px){
+    nav span{
+        font-size: 1.5rem;
+    }
+
+    footer .media ul{
+        gap: 35px;
+    }
+    
+    footer .navLinks ul{
+        gap: 65px;
+    }
+    
+    .copyRight p{
+        font-size: 0.7rem;
+        letter-spacing: 0.2rem;
+    }
+    footer .navLinks a{
+        font-size: 1rem;
+    }
     nav ul{
         display: none;
     }
@@ -389,7 +431,32 @@ footer .navLinks ul li{
         font-size: 0.7rem;
     }
 }
-@media (max-width:315px){
+@media (max-width:320px){
+     nav span{
+        font-size: 0.9rem;
+    }
+
+    footer .media ul{
+        gap: 25px;
+        font-size: 2rem;
+    }
+    
+    footer .navLinks ul{
+        gap: 40px;
+    }
+    footer .navLinks li a{
+        font-size: 0.6rem;
+    }
+    
+    .copyRight p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    footer .navLinks a{
+        font-size: 1rem;
+    }
+    
     .grid1 h1{
         font-size: 2.5rem;
     }
