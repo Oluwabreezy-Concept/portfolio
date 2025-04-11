@@ -162,7 +162,8 @@ nav a:hover{
     color: rgb(7, 1, 34);
     transform: rotate(-45deg);
     margin-top: 3rem;
-    transition: ease .50s;    
+    transition: ease .50s;
+    text-align: center;
 }
 /*GRID 2 ENDS*/
 
