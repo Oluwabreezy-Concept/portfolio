@@ -437,12 +437,12 @@ footer .navLinks a{
     }
 
     footer .media ul{
-        gap: 20px;
+        gap: 15px;
         font-size: 2rem;
     }
     
     footer .navLinks ul{
-        gap: 30px;
+        gap: 25px;
     }
     footer .navLinks li a{
         font-size: 0.6rem;
